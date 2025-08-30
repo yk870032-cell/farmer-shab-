@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>farmerlife9938</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px;
+      text-align: center;
+    }
+    .portfolio img {
+      width: 250px;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #999;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #ff6600;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e65c00;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>मेरा पोर्टफोलियो</h1>
+    <nav>
+      <a href="#home">farmerlife9938</a>
+      <a href="#about">yas kumar</a>
+      <a href="#portfolio">I love wrestling</a>
+      <a href="#contact">9729836971</a>
+    </nav>
+  </header>
+
+  <section id="welcome">
+    <h2>I leave in barwa</h2>
+    <p>i read in 10 class </p>
+    <button onclick="document.getElementById('portfolio').scrollIntoView()">मेरे काम देखें</button>
+  </section>
+
+  <section id="about">
+    <h2>i am intrest in Devloling</h2>
+    <p>my ne is yash kumar 
+    i love in wtestling 
+    i have many frinds</p>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>python</h2>
+    <img src="https://via.placeholder.com/250" alt="Project 1">
+    <img src="https://via.placeholder.com/250" alt="Project 2">
+    <img src="https://via.placeholder.com/250" alt="Project 3">
+  </section>
+
+  <section id="contact">
+    <h2>8930756406</h2>
+    <p>yk870032@emil.com</p>
+    <p>फ़ोन: +91 9876543210</p>
+  </section>
+
+  <footer>
+    <p>my life 
+    my rule </p>
+  </footer>
+
+</body>
+</html>
